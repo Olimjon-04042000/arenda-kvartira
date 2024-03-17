@@ -1,14 +1,14 @@
-import React from "react";
+
 
 const kvartira = () => {
   return (
-    <div className=" bg-white">
+    <div className=" bg-white w-[370px] relative before: ">
       <img src="/img-1.png" alt="" />
       <div className="mt-[6px] px-[18px] pb-[22px]">
         <h3 className="text-[#458BD1] text-[18px] mb-[10px]">
           Ул. Петра Мстиславца, 24
         </h3>
-        <div>
+        <div className="flex justify-between mb-1">
           <p className="text-[#211A1D] text-[14px] font-light">
             Спальных мест: <span className="text-[#458BD1] font-normal">2</span>
           </p>
@@ -25,8 +25,37 @@ const kvartira = () => {
                 fill="#458BD1"
               />
             </svg>
-            <a href="">Маяк Минска</a>
-            <p className="underline text-[#211a1d99] text-[14px] font-light ">Маяк Минска</p>
+            <a
+              className="underline text-[#211a1d99] text-[14px] font-light "
+              href=""
+            >
+              Маяк Минска
+            </a>
+          </div>
+        </div>
+        <div className="flex justify-between mb-[15px]">
+          <p className="text-[#211A1D] text-[14px] font-light">
+            Комнат: <span className="text-[#458BD1] font-normal">1</span>
+          </p>
+          <div className="flex gap-[5px] items-center ">
+            <img src="/m.svg" alt="" />
+            <a
+              className="underline text-[#458BD1] text-[14px] font-light "
+              href=""
+            >
+              Восток
+            </a>
+            <p className="text-[rgba(33,26,29,0.4)]">(0,24km)</p>
+          </div>
+        </div>
+        <div className=" flex items-center justify-between">
+          <div className="px-[46px] py-[9px] text-[#458BD1] text-[14px] border-[0.5px] rounded-sm border-[#458BD1] ">
+            Связаться
+          </div>
+          <div className=" flex gap-[10px]">
+            <a href="https://t.me/Olimjon6774"><img src="/Telegram.svg" alt="" /></a>
+            <a href="https://www.whatsapp.com/"><img src="/WhatsApp.svg" alt="" /></a>
+            <a href="tel:998975046774"><img src="/Viber.svg" alt="" /></a>
           </div>
         </div>
       </div>
